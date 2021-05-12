@@ -12,4 +12,4 @@
 🚀解答：[作业1-web服务器.md](SocketProgramLab/lab1-webServer/作业1-webServer-解答.md)
 
 #### 作业4: 多线程web代理服务器
-🛫解答: [作业4-多线程web代理服务器.md](SocketProgramLab/lab4-ProxyServer/HTTP Web Proxy Server.md)
+🛫解答: [作业4-多线程web代理服务器.md](SocketProgramLab/lab4-ProxyServer/作业4-多线程web代理服务器-解答.md)
