@@ -110,7 +110,7 @@ clientSocket.close()
 ---
 ## Optional Exercises
 
-[optional 1](SocketProgramLab/lab2-SMTP/Optional-Exercises-1.md)
+[optional 1](Optional-Exercises-1.md)
 
 
-[optional 2](SocketProgramLab/lab2-SMTP/Optional-Exercises-2.md)
+[optional 2](Optional-Exercises-2.md)
