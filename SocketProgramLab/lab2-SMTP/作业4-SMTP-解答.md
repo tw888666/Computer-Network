@@ -105,8 +105,12 @@ clientSocket.close()
 ```
 
 ---
-实现效果在这里不加以多说，运行成功则能在发送方的已发送邮件里看到或者在接收方的收件箱中看到。本教程主要精力在于后面的两个optional exercise
+实现效果在这里不加以多说，运行成功则能在发送方的已发送邮件里看到或者在接收方的收件箱中看到。本教程主要精力在于后面的两个optional exercise。
+
+---
+## Optional Exercises
+
+[optional 1](SocketProgramLab/lab2-SMTP/Optional-Exercises-1.md)
 
 
-optional 1
-optional 2
+[optional 2](SocketProgramLab/lab2-SMTP/Optional-Exercises-2.md)
