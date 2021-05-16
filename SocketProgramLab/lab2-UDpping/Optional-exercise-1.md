@@ -25,7 +25,7 @@ UDPclient.py
 
 ```python
 """
-@Author  : TW![在这里插入图片描述](https://img-blog.csdnimg.cn/20210516152359179.png)
+@Author  : TW!
 
 @Time    : 2021/5/9 18:06
 """
