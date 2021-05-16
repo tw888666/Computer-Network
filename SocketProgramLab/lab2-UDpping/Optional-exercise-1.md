@@ -13,6 +13,7 @@ calculate the packet loss rate (in percentage)
 
 ## 实现
 在cmd中 ping baidu得到效果图如下所示：
+
 ![](https://img-blog.csdnimg.cn/20210516152536874.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjY2MjMxOA==,size_16,color_FFFFFF,t_70)
 现根据此效果模拟UDPping
 
@@ -78,6 +79,7 @@ print('\t最短 = %.3fs, 最长 = %.3fs, 平均 = %.3fs' % (minimum, maximum, su
 #### 客户端：
 运行UDPclient.py
 效果如下：
+
 ![](https://img-blog.csdnimg.cn/20210516152409958.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjY2MjMxOA==,size_16,color_FFFFFF,t_70)
 
 
