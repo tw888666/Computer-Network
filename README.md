@@ -14,7 +14,7 @@
 
 #### 作业2：UDPping程序
 	
-💖解答：[作业2-UDPping程序.md](SocketProgramLab/lab1-webServer/作业1-webServer-解答.md)
+💖解答：[作业2-UDPping程序.md](SocketProgramLab/lab2-UDpping/作业2-UDPping程序.md)
 
 #### 作业3: SMTP
 🎁解答：[作业3-SMTP.md](SocketProgramLab/lab3-SMTP/作业3-SMTP-解答.md)
