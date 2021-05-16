@@ -81,7 +81,6 @@ while True:
 ## 本教程主要讲解Optional Exercises:
 
 ---
+[Optional Exercise 1](SocketProgramLab/lab2-UDpping/Optional-exercise-1.md)
 
-### [Optional Exercise 1:](SocketProgramLab/lab2-UDpping/Optional-exercise-1.md)
-
-### Optional Exercise 2:
+Optional Exercise 2:
