@@ -1,4 +1,4 @@
-﻿# Lab 5: HTTP Web Proxy Server
+﻿# Lab 4: HTTP Web Proxy Server
 ---
 
 > In this lab, you will learn how web proxy servers work and one of their basic functionalities –
@@ -13,7 +13,7 @@ request message sent by the client and the response message delivered by the web
 the proxy server. In other words, the client requests the objects via the proxy server. The proxy server 
 will forward the client’s request to the web server. The web server will then generate a response 
 message and deliver it to the proxy server, which in turn sends it to the client.
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210512211600151.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjY2MjMxOA==,size_16,color_FFFFFF,t_70#pic_center)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210512211600151.png)
 ---
 
 ## Python	Code	for	the	Proxy	Server
@@ -85,13 +85,13 @@ We use the link [http://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.h
 ![](https://img-blog.csdnimg.cn/20210512212101639.png#pic_center)
 
 Then run the proxy server program locally
-![](https://img-blog.csdnimg.cn/20210512212316575.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjY2MjMxOA==,size_16,color_FFFFFF,t_70#pic_center)
+![](https://img-blog.csdnimg.cn/20210512212316575.pn)
 Then set up the web proxy
-![](https://img-blog.csdnimg.cn/20210512212533203.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjY2MjMxOA==,size_16,color_FFFFFF,t_70#pic_center)
+![](https://img-blog.csdnimg.cn/20210512212533203.png)
 
 use ctrl+f5 to Force page refresh
 
 ![](https://img-blog.csdnimg.cn/20210512212843891.png#pic_center)Will generate html files in the same directory
 Open the file to see the corresponding content
-![](https://img-blog.csdnimg.cn/20210512212949895.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjY2MjMxOA==,size_16,color_FFFFFF,t_70#pic_center)
+![](https://img-blog.csdnimg.cn/20210512212949895.png)
 
