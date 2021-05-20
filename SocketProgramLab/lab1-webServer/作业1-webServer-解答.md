@@ -78,9 +78,15 @@ HelloWorld.html
 ![image](https://user-images.githubusercontent.com/68290480/118629163-e915de00-b7ff-11eb-9b3b-b5202175d442.png)
 注意http error 404
 
+---
+### Optional Exercise
+
+---
+
+[Optional-Exercise-1](Optional-Exercise-1.md)
 
 
-
+[Optional-Exercise-2](Optional-Exercise-2.md)
 
 
 
