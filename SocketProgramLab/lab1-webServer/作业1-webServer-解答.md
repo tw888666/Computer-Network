@@ -42,6 +42,17 @@ while True:
         # connectionSocket.send(LengthString.encode())
         connectionSocket.send('Connect-Type: text/html\n'.encode())
         connectionSocket.send('\n'.encode())
+        # Fill in end
+        # Send the content of the requested file to the client
+        for i in range(0, len(outputdata)):
+            connectionSocket.send(outputdata[i].encode())
+        connectionSocket.close()
+    except IOError:
+        # Send response message for file not found
+        connectionSocket.send('HTTP/1.1 404 Not Found\n\n'.encode())
+        connectionSocket.close()
+serverSocket.close()
+
 ```
 HelloWorld.html
 
@@ -49,8 +60,23 @@ HelloWorld.html
 <head>Hello world!</head>
 ```
 
+## 运行
+
+---
+### 服务器端:
+![image](https://user-images.githubusercontent.com/68290480/118628371-20d05600-b7ff-11eb-89d8-c55df080b374.png)
+
+在同一目录下保存.py文件和.html文件，运行.py作为服务器
+### 客户端：
+在另一台主机上打开浏览器，并输入"http://XXX.XXX.XXX.XXX:8888/HelloWorld.html" （其中"XXX.XXX.XXX.XXX"是服务器IP地址），以获取服务器上的HelloWorld.html文件。
+正常情况下可以看到如下图所示：
+![image](https://user-images.githubusercontent.com/68290480/118628691-70168680-b7ff-11eb-8a20-510f31d460ee.png)
 
 
+输入新的不存在地址则出现所下图所示：
+
+![image](https://user-images.githubusercontent.com/68290480/118629163-e915de00-b7ff-11eb-9b3b-b5202175d442.png)
+注意http error 404
 
 
 
