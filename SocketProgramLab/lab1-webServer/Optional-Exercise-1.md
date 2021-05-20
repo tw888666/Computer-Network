@@ -16,7 +16,7 @@ in which your modified server listens for clients at a fixed port. When it recei
 
 
 ## 代码
-UDPclient.py
+MultiThreadServer.py
 
 ```python
 import datetime
