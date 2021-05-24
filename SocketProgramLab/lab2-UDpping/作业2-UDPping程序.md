@@ -11,7 +11,7 @@
 
 
 ## 实现方法
-UDPPinger.py
+udpPingClient.py
 ```python
 """
 @Author  : TW
@@ -44,7 +44,7 @@ while counter < 10:
 
 ```
 ---
-UDPPingerServer.py
+udpPingServer.py
 
 ```python
 import random
@@ -71,9 +71,9 @@ while True:
 ---
 ## 运行
 ##### 服务器
-运行UDPserver.py即可
+运行udpPingServer.py即可
 #### 客户端
-运行UDPclient.py
+运行udpPingClient.py
 效果如下：
 ![](https://img-blog.csdnimg.cn/20210516140602591.png)
 
