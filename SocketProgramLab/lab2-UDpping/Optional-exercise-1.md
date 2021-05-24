@@ -21,7 +21,7 @@ calculate the packet loss rate (in percentage)
 
 
 ## 代码
-UDPclient.py
+udpPingClient-1.py
 
 ```python
 """
@@ -75,9 +75,9 @@ print('\t最短 = %.3fs, 最长 = %.3fs, 平均 = %.3fs' % (minimum, maximum, su
 ## 运行
 ---
 ##### 服务器端：
-运行UDPserver.py即可
+运行udpPingServer.py即可
 #### 客户端：
-运行UDPclient.py
+运行udpPingClient-1.py
 效果如下：
 
 ![](https://img-blog.csdnimg.cn/20210516152409958.png)
